@@ -1,0 +1,15 @@
+{#  -*- coding: utf-8 -*- #}
+{% import 'base_helper.tmpl' as base with context %}
+
+{% macro html_footer() %}
+    {% if content_footer %}
+        <footer id="footer" role="contentinfo">
+            <p>{{ content_footer }}</p>
+            <p>
+                Theme derived from <a href="https://github.com/mattgraham/leapday">Leap Day</a>
+                by <a href="https://github.com/mattgraham">Matt Grahm</a>
+            </p>
+            {{ template_hooks['page_footer']() }}
+        </footer>
+    {% endif %}
+{% endmacro %}
