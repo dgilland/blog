@@ -32,6 +32,9 @@ My main requirements for a static blogging platform were:
 - Not overly complicated
 
 
+.. TEASER_END
+
+
 Pelican
 +++++++
 
