@@ -572,7 +572,7 @@ COMMENT_SYSTEM_ID = ""
 # This can be disabled on a per-page/post basis by adding
 #    .. pretty_url: False
 # to the metadata
-# PRETTY_URLS = False
+PRETTY_URLS = True
 
 # If True, publish future dated posts right away instead of scheduling them.
 # Defaults to False.
@@ -643,10 +643,10 @@ SOCIAL_BUTTONS_CODE = ''
 
 # Show link to source for the posts?
 # Formerly known as HIDE_SOURCELINK (inverse)
-# SHOW_SOURCELINK = True
+SHOW_SOURCELINK = False
 # Copy the source files for your pages?
 # Setting it to False implies SHOW_SOURCELINK = False
-# COPY_SOURCES = True
+COPY_SOURCES = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10
