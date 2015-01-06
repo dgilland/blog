@@ -52,9 +52,7 @@ class IgnoreFileFilter(Filter):
             self._ignored = set(fp.read().split())
 
     def _skip(self, word):
-        if 'mypost' in word:
-            LOGGER.notice(repr(word))
-        if str(word) in self._ignored:
+        if word in self._ignored:
             return True
         return False
 
