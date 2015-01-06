@@ -12,3 +12,7 @@ webassets
 Sitemap
 CSS
 JS
+Github
+repo
+repos
+workflow
