@@ -10,6 +10,7 @@ natsort==3.5.1
 Nikola==7.2.0
 Pillow==2.7.0
 pip-tools==0.3.5
+pyenchant==1.6.6
 Pygments==2.0.1
 pyinotify==0.9.4
 PyRSS2Gen==1.1
