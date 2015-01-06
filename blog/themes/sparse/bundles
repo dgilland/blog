@@ -1,0 +1,4 @@
+assets/css/all.css=bootstrap.css,bootstrap-nikola.css,code.css,font-awesome.css,theme.css
+assets/css/all-nocdn.css=bootstrap.css,bootstrap-nikola.css,code.css,font-awesome.css,theme.css
+assets/js/all-nocdn.js=jquery.min.js,bootstrap.min.js,jquery.colorbox-min.js,moment-with-locales.min.js,fancydates.js
+assets/js/all.js=jquery.colorbox-min.js,moment-with-locales.min.js,fancydates.js
