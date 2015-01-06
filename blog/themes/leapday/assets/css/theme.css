@@ -139,6 +139,12 @@ blockquote {
     font-style: italic;
 }
 
+pre,
+code
+tt {
+    font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+}
+
 pre {
     padding: 8px 15px;
     background: #333;
@@ -152,30 +158,12 @@ pre {
     overflow-y: hidden;
 }
 
-pre code {
-    font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-    font-size: 13px;
-    color: #efefef;
-    text-shadow: 0px 1px 0px #000;
-    margin: 0px;
-    padding: 0px;
-    background: #333;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
-    border-radius: 2px;
-}
-
 code,
 tt {
-    font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-    font-size: 13px;
-    color: #efefef;
-    text-shadow: 0px 1px 0px #000;
+    font-size: 12px;
     margin: 0 2px;
     padding: 1px 3px;
-    background: #333;
+    background-color: rgba(0,0,0,0.04);
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
