@@ -72,4 +72,4 @@ deploy:
 	git push -u --force origin master
 
 .PHONY: publish
-publish: html deploy
+publish: fresh-html deploy
