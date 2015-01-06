@@ -11,7 +11,7 @@ First Post
 
 I always thought that my first blog would be backed by something like `Wordpress <https://wordpress.org/>`_, but that was years ago. Now that I've actually built one, I've chosen a static site generator instead. Before implementing this site, I researched several static blog engines to find the one I felt most comfortable with. Along the way, I looked at `Pelican <http://blog.getpelican.com/>`_, `Tinkerer <http://tinkerer.me/>`_, and `Nikola <http://getnikola.com/>`_. My main requirements for a static blogging platform were:
 
-- Easy of use
+- Easy to use
 - Supports reStructuredText
 - Uses Jinja for templating
 - Sufficient features
