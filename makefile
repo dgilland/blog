@@ -3,14 +3,14 @@
 ##
 
 ENV_NAME = env
-ENV_ACT = . env/bin/activate;
+ENV_ACT = . env/bin/activate &&
 PIP = $(ENV_NAME)/bin/pip
 BLOG_DIR = blog
 OUTPUT_DIR = $(BLOG_DIR)/output
-DEPLOY_DIR = site
+STAGING_DIR = site
 ORIGIN = git@github.com:dgilland/dgilland.github.io.git
 DOMAIN = derrickgilland.com
-NIKOLA = $(ENV_ACT) cd $(BLOG_DIR); nikola
+NIKOLA = $(ENV_ACT) cd $(BLOG_DIR) && nikola
 
 ##
 # Targets
@@ -56,8 +56,8 @@ page:
 html:
 	$(NIKOLA) build
 
-.PHONY: fresh-html
-fresh-html: clean-output html
+.PHONY: new-html
+new-html: clean-output html
 
 .PHONY: serve
 serve:
@@ -68,9 +68,9 @@ reload: html serve
 
 .PHONY: deploy
 deploy:
-	rm -rf $(DEPLOY_DIR) && \
-	cp -r $(OUTPUT_DIR) $(DEPLOY_DIR)
-	cd $(DEPLOY_DIR) && \
+	rm -rf $(STAGING_DIR) && \
+	cp -r $(OUTPUT_DIR) $(STAGING_DIR)
+	cd $(STAGING_DIR) && \
 	echo $(DOMAIN) > CNAME && \
 	touch .nojekyll && \
 	git init && \
@@ -80,4 +80,4 @@ deploy:
 	git push -u --force origin master
 
 .PHONY: publish
-publish: fresh-html deploy
+publish: new-html deploy
