@@ -63,6 +63,12 @@ body {
     font-family: 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+p,
+ul,
+pre {
+    margin-bottom: 20px;
+}
+
 pre,
 code,
 .code,
