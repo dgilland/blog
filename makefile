@@ -44,6 +44,14 @@ install:
 	virtualenv --no-site-packages $(ENV_NAME)
 	$(PIP) install -r requirements.txt
 
+.PHONY: post
+post:
+	$(NIKOLA) new_post
+
+.PHONY: page
+page:
+	$(NIKOLA) new_page
+
 .PHONY: html
 html:
 	$(NIKOLA) build
