@@ -52,6 +52,10 @@ post:
 page:
 	$(NIKOLA) new_page
 
+.PHONY: spellcheck
+spellcheck:
+	aspell check $(f)
+
 .PHONY: html
 html:
 	$(NIKOLA) build
