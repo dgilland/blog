@@ -19,7 +19,7 @@ NIKOLA = $(ENV_ACT) cd $(BLOG_DIR) && nikola
 build: clean install
 
 .PHONY: clean
-clean: clean-env clean-files clean-output
+clean: clean-env clean-files clean-output clean-staging
 
 .PHONY: clean-env
 clean-env:
@@ -37,6 +37,10 @@ clean-files:
 .PHONY: clean-output
 clean-output:
 	rm -rf $(OUTPUT_DIR)
+
+.PHONY: clean-staging
+clean-staging:
+	rm -rf $(STAGING_DIR)
 
 .PHONY: install
 install:
