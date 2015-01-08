@@ -69,7 +69,7 @@ Deploying to Github
 I wanted to deploy my site to `Github Pages <https://pages.github.com/>`_ from the start. There were several advantages to this:
 
 - No need to worry about hosting
-- Visibility on Github (source code and site deployment repos)
+- Visibility on Github (source code and site deployment repositories)
 - Can edit from anywhere
 
 In a future post I will outline the workflow I established for deploying the site using Nikola and Github Pages.
