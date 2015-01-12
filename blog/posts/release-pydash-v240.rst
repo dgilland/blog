@@ -8,7 +8,9 @@
 .. author: Derrick Gilland
 
 
-Today I released `pydash v2.4.0 <https://github.com/dgilland/pydash/tree/v2.4.0>`_. It was a minor release with a few new ``string`` methods. The full changelog is below.
+Today I released `pydash v2.4.0 <https://github.com/dgilland/pydash/tree/v2.4.0>`_.
+
+It was a minor release with a few new ``string`` methods. The full changelog is below.
 
 
 v2.4.0 (2015-01-07)
