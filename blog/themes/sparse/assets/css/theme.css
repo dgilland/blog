@@ -6,6 +6,7 @@
 body {
     font-size: 16px;
     font-family: Georgia, serif;
+    line-height: 1.6;
 }
 
 p,
@@ -51,6 +52,10 @@ tt {
     margin: 60px 0;
 }
 
+.section {
+    margin: 40px 0;
+}
+
 footer {
     text-align: center;
     margin: 20px auto;
@@ -63,5 +68,5 @@ footer {
 
 @media (min-width: 1200px) {
     .container {
-    width: 970px;
+    width: 750px;
 }
