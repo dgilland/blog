@@ -1,25 +1,49 @@
-.. title: Release: pydash v2.4.0
-.. slug: release-pydash-v240
+.. title: pydash: Release v2.4.0
+.. slug: pydash-release-v240
 .. date: 2015-01-07 22:10:57 UTC-05:00
-.. tags: pydash, releases
+.. tags: pydash, python, release
 .. link:
 .. description:
 .. type: text
 .. author: Derrick Gilland
 
 
-Today I released `pydash v2.4.0 <https://github.com/dgilland/pydash/tree/v2.4.0>`_.
+`Pydash v2.4.0 <https://github.com/dgilland/pydash/tree/v2.4.0>`_ has been released.
 
-It was a minor release with a few new ``string`` methods. The full changelog is below.
+It was a minor feature release with a few new ``string`` methods.
 
 
-v2.4.0 (2015-01-07)
--------------------
+.. TEASER_END
 
-- Add ``ensure_ends_with``.
-- Add ``ensure_starts_with``.
-- Add ``quote``.
-- Add ``surround``.
+
+What is pydash?
+---------------
+
+.. include:: snippets/what-is-pydash.rst
+
+
+Downloads
+---------
+
+.. include:: snippets/download-pydash.rst
+
+
+Changes
+-------
+
+Features
+++++++++
+
+- Added ``ensure_ends_with``.
+- Added ``ensure_starts_with``.
+- Added ``quote``.
+- Added ``surround``.
+
+
+Bugfixes
+++++++++
+
+None
 
 
 Work on the next `major release (v3) <https://github.com/dgilland/pydash/milestones/v3.0.0>`_ is currently underway. It will be a backwards incompatible change.
