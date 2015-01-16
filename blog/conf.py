@@ -119,7 +119,7 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "sparse"
+THEME = "spartan"
 
 # Below this point, everything is optional
 
