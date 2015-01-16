@@ -48,6 +48,10 @@ tt {
     border-radius: 2px;
 }
 
+.linenos pre {
+    padding: 0 10px 0 0;
+}
+
 a {
     color: #28742d;
 }
@@ -55,6 +59,15 @@ a {
 a:hover,
 a:focus {
     color: #023906;
+}
+
+
+p.more a {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
 }
 
 .navbar-default {
