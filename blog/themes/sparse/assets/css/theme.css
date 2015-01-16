@@ -5,8 +5,17 @@
 
 body {
     font-size: 16px;
-    font-family: Georgia, serif;
+    font-family: Merriweather, Georgia, serif;
     line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Raleway, Arial, sans-serif;
 }
 
 p,
@@ -39,6 +48,53 @@ tt {
     border-radius: 2px;
 }
 
+a {
+    color: #28742d;
+}
+
+a:hover,
+a:focus {
+    color: #023906;
+}
+
+.navbar-default {
+    background-color: #772953;
+    border-color: #511c39;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fff;
+  background-color: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #511c39;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #3e152b;
+}
+
+.metadata {
+    color: #c0c0c0;
+    font-family: Raleway, Arial, sans-serif;
+    font-style: italic;
+}
+
 .postindex article {
     margin: 0;
     position: relative;
@@ -54,6 +110,11 @@ tt {
 
 .section {
     margin: 40px 0;
+}
+
+.tags>li {
+    /* Compensate for font size/family. Normally padding-top is 3px. */
+    padding-top: 5px;
 }
 
 footer {
