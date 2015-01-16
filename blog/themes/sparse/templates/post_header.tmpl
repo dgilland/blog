@@ -4,7 +4,7 @@
 
 {% macro html_title() %}
 {% if title and not post.meta('hidetitle') %}
-    <h1 class="p-name entry-title" itemprop="headline name"><a href="{{ post.permalink() }}" class="u-url">{{ title|e }}</a></h1>
+    <h1 class="p-name entry-title" itemprop="headline name"><a href="{{ post.permalink() }}" class="u-url" rel="bookmark">{{ title|e }}</a></h1>
 {% endif %}
 {% endmacro %}
 
@@ -34,7 +34,7 @@
             {% if SHOW_AUTHOR %}
             <p class="byline author vcard"><span class="byline-name fn">{{ post.author() }}</span></p>
             {% endif %}
-            <p class="dateline"><a href="{{ post.permalink() }}" rel="bookmark"><time class="published dt-published" datetime="{{ post.date.isoformat() }}" itemprop="datePublished" title="{{ post.formatted_date(date_format) }}">{{ post.formatted_date(date_format) }}</time></a></p>
+            <p class="dateline"><time class="published dt-published" datetime="{{ post.date.isoformat() }}" itemprop="datePublished" title="{{ post.formatted_date(date_format) }}">{{ post.formatted_date(date_format) }}</time></p>
             {% if not post.meta('nocomments') and site_has_comments %}
                 <p class="commentline">{{ comments.comment_link(post.permalink(), post._base_path) }}
             {% endif %}
