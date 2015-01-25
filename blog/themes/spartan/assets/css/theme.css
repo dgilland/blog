@@ -102,6 +102,16 @@ p.more a {
     background-color: #3e152b;
 }
 
+.navbar-nav > li > a i div {
+    font-size: 50%;
+    text-align: center;
+    margin: 0 auto;
+    position: fixed;
+    left: -50%;
+    right: -50%;
+    font-family: Merriweather, Georgia, serif;
+}
+
 .metadata {
     color: #c0c0c0;
     font-family: Raleway, Arial, sans-serif;
@@ -143,5 +153,12 @@ footer {
 @media (min-width: 750px) {
     .container {
         width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a i div {
+        position: static;
+        text-align: left;
     }
 }
