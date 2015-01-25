@@ -16,14 +16,8 @@ It was a minor feature release with a few new ``string`` methods.
 .. TEASER_END
 
 
-What is pydash?
----------------
-
 .. include:: snippets/what-is-pydash.rst
 
-
-Downloads
----------
 
 .. include:: snippets/download-pydash.rst
 

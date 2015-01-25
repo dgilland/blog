@@ -16,14 +16,8 @@ It was a minor bug fix release that patched an issue with ``kebab_case``.
 .. TEASER_END
 
 
-What is pydash?
----------------
-
 .. include:: snippets/what-is-pydash.rst
 
-
-Downloads
----------
 
 .. include:: snippets/download-pydash.rst
 

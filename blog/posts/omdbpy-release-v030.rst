@@ -17,14 +17,8 @@ It was a feature release that added support for OMDb API's new ``type`` paramete
 .. TEASER_END
 
 
-What is omdb.py?
-----------------
-
 .. include:: snippets/what-is-omdbpy.rst
 
-
-Downloads
----------
 
 .. include:: snippets/download-omdbpy.rst
 
