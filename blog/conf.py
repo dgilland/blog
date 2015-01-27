@@ -850,6 +850,7 @@ GLOBAL_CONTEXT = {
     'NAVIGATION_LINKS_ALT': {
         DEFAULT_LANG: (
             ('https://github.com/dgilland', '<i class="fa fa-github fa-lg"></i>'),
+            ('http://stackoverflow.com/users/681166/dgilland', '<i class="fa fa-stack-overflow fa-lg"></i>'),
             ('mailto:dgilland@gmail.com', '<i class="fa fa-envelope fa-lg"></i>'),
             ('/rss.xml', '<i class="fa fa-rss fa-lg"></i>'),
         )
