@@ -112,11 +112,8 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/', '<i class="fa fa-home fa-lg"></i>'),
-        ('/archive.html', '<i class="fa fa-archive fa-lg"></i>'),
-        ('/categories/index.html', '<i class="fa fa-tags fa-lg"></i>'),
-        ('https://github.com/dgilland', '<i class="fa fa-github fa-lg"></i>'),
-        ('mailto:dgilland@gmail.com', '<i class="fa fa-envelope fa-lg"></i>'),
-        ('/rss.xml', '<i class="fa fa-rss fa-lg"></i>'),
+        ('/archive.html', 'Archive'),
+        ('/categories/index.html', 'Tags'),
     ),
 }
 
@@ -849,7 +846,14 @@ LOGGING_HANDLERS = {
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {
-    'SHOW_AUTHOR': False
+    'SHOW_AUTHOR': False,
+    'NAVIGATION_LINKS_ALT': {
+        DEFAULT_LANG: (
+            ('https://github.com/dgilland', '<i class="fa fa-github fa-lg"></i>'),
+            ('mailto:dgilland@gmail.com', '<i class="fa fa-envelope fa-lg"></i>'),
+            ('/rss.xml', '<i class="fa fa-rss fa-lg"></i>'),
+        )
+    }
 }
 
 # Add functions here and they will be called with template
