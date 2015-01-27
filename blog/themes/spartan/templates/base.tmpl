@@ -44,6 +44,9 @@
 
             <ul class="nav navbar-nav navbar-right">
                 {% block belowtitle %}
+                {% if NAVIGATION_LINKS_ALT %}
+                    {{ base.html_navigation_links(NAVIGATION_LINKS_ALT) }}
+                {% endif %}
                 {% if translations|length > 1 %}
                     <li>{{ base.html_translations() }}</li>
                 {% endif %}
