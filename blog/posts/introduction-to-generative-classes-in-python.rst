@@ -9,6 +9,9 @@
 .. author: Derrick Gilland
 
 
+This is part one in my series on `Generative Classes <link://tag/generative-classes>`_.
+
+
 A Python Generative Class is defined as
 
     a class that returns or clones, i.e. generates, itself when accessed by certain means
@@ -147,3 +150,6 @@ With that in mind, the original ``Operation`` class can be rewritten to utilize 
 
 
 This new implementation is much cleaner and avoids excessive boilerplate. It abstracts the generative handling into a `decorator <https://www.python.org/dev/peps/pep-0318/>`_ which allows one to define the generative methods without having to worry about the details of the generative implementation. However, it is prone to the gotchas mentioned above, but in most cases, it would be sufficient for implementing a generative class.
+
+
+.. include:: snippets/generative-classes-series.rst
