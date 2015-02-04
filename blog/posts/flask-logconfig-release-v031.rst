@@ -9,7 +9,7 @@
 .. author: Derrick Gilland
 
 
-`Flask-LogConfig v0.3.1 <https://github.com/dgilland/flask-logconfig/tree/v0.3.0>`_ has been released.
+`Flask-LogConfig v0.3.1 <https://github.com/dgilland/flask-logconfig/tree/v0.3.1>`_ has been released.
 
 It was something of a brown bag release that added some missing metadata to the main module.
 
