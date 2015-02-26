@@ -115,7 +115,7 @@ NAVIGATION_LINKS = {
         ('/pages/about/', 'About'),
         ('/pages/projects/', 'Projects'),
         ('/archive.html', 'Archive'),
-        ('/categories/index.html', 'Tags'),
+        ('/categories/', 'Tags'),
     ),
 }
 
