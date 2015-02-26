@@ -119,6 +119,15 @@ NAVIGATION_LINKS = {
     ),
 }
 
+NAVIGATION_LINKS_ALT = {
+    DEFAULT_LANG: (
+        ('https://github.com/dgilland', '<i class="fa fa-github fa-lg"></i>'),
+        ('http://stackoverflow.com/users/681166/dgilland', '<i class="fa fa-stack-overflow fa-lg"></i>'),
+        ('mailto:dgilland@gmail.com', '<i class="fa fa-envelope fa-lg"></i>'),
+        ('/rss.xml', '<i class="fa fa-rss fa-lg"></i>'),
+    )
+}
+
 # Name of the theme to use.
 THEME = "spartan"
 
@@ -849,14 +858,7 @@ LOGGING_HANDLERS = {
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {
     'SHOW_AUTHOR': False,
-    'NAVIGATION_LINKS_ALT': {
-        DEFAULT_LANG: (
-            ('https://github.com/dgilland', '<i class="fa fa-github fa-lg"></i>'),
-            ('http://stackoverflow.com/users/681166/dgilland', '<i class="fa fa-stack-overflow fa-lg"></i>'),
-            ('mailto:dgilland@gmail.com', '<i class="fa fa-envelope fa-lg"></i>'),
-            ('/rss.xml', '<i class="fa fa-rss fa-lg"></i>'),
-        )
-    }
+    'NAVIGATION_LINKS_ALT': NAVIGATION_LINKS_ALT
 }
 
 # Add functions here and they will be called with template
