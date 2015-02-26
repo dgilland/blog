@@ -18,6 +18,12 @@ h6 {
     font-family: Raleway, Arial, sans-serif;
 }
 
+h2 {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 16px;
+    padding-bottom: 0.3em;
+}
+
 p,
 ul,
 pre {
@@ -135,7 +141,8 @@ p.more a {
     margin: 40px 0;
 }
 
-.tags>li {
+.tags > li,
+.reference.badge {
     /* Compensate for font size/family. Normally padding-top is 3px. */
     padding-top: 5px;
 }
