@@ -112,6 +112,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/', '<i class="fa fa-home fa-lg"></i>'),
+        ('/pages/projects/', 'Projects'),
         ('/archive.html', 'Archive'),
         ('/categories/index.html', 'Tags'),
     ),
