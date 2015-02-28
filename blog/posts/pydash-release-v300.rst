@@ -9,7 +9,7 @@
 .. author: Derrick Gilland
 
 
-`Pydash v3.0.0 <https://github.com/dgilland/pydash/tree/v2.4.2>`_ has been released.
+`Pydash v3.0.0 <https://github.com/dgilland/pydash/tree/v3.0.0>`_ has been released.
 
 It was a major version release with over 40 new functions, enhanced chaining functionality, bug fixes, and several backwards incompatible changes.
 
