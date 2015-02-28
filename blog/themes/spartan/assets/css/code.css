@@ -1,5 +1,5 @@
 /* spartan theme */
-pre.code, pre.code table { background: #171717 !important; color: #fff !important; }
+pre.code, pre.code table, .linenos pre { background: #171717 !important; color: #fff !important; }
 pre.code .hll { background-color: #404040 !important; } /* ??? */
 pre.code .c { color: #a3a3a3 !important; font-style: italic !important; background-color: #000 !important; } /* Comment */
 pre.code .err { color: #990000 !important; background-color: #fff !important; font-style: italic !important; } /* Error */
@@ -69,5 +69,6 @@ pre.code .vc { color: #3399cc !important; } /* Name.Variable.Class */
 pre.code .vg { color: #3399cc !important; } /* Name.Variable.Global */
 pre.code .vi { color: #3399cc !important; } /* Name.Variable.Instance */
 pre.code .il { color: #ff593e !important; } /* Literal.Number.Integer.Long */
+.linenos pre { text-align: right; }
 .linenos a { color: #fff !important; }
 .linenos a:hover, .linenos a:focus: { color: #fff !important; text-decoration: none !important; }

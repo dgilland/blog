@@ -38,10 +38,6 @@ tt {
     font-family: 'Source Code Pro', monospace;
 }
 
-pre .ln {
-	padding-right: 5px;
-}
-
 code,
 tt {
     margin: 0 2px;
@@ -52,10 +48,6 @@ tt {
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
     border-radius: 2px;
-}
-
-.linenos pre {
-    padding: 0 10px 0 0;
 }
 
 a {
