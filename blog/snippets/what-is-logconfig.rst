@@ -5,4 +5,4 @@ This simple library exposes several helper methods for configuring the standard 
 
 In addition to configuration loading, logconfig provides helpers for easily converting a configured logger's handlers to utilize a queue.
 
-It is Python 2.6+ and 3.3+ compatibile.
+It is Python 2.6+ and 3.3+ compatible.
