@@ -80,9 +80,9 @@ The example code I will use to discuss this type of functionality can be found i
 
 
     def chain(value):
-        """Creates a `Chain` object which wraps the given value to enable
+        """Creates a 'Chain' object which wraps the given value to enable
         intuitive method chaining. Chaining is lazy and won't compute a final value
-        until `Chain.value` is called.
+        until 'Chain.value' is called.
         """
         return Chain(value)
 
