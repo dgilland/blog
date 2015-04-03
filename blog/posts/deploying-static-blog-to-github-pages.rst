@@ -8,10 +8,6 @@
 .. author: Derrick Gilland
 
 
-Deploying a Static Blog to Github Pages
-=======================================
-
-
 One of the challenges when deploying a static blog site to `Github Pages <https://pages.github.com>`_ is having a good workflow for accomplishing the task easily. By default Github Pages will use Jekyll to build your site for you, but if you're using something else besides Jekyll, then you're on your own.
 
 For my static blog site (powered by `Python <https://www.python.org/>`_ and `Nikola <http://getnikola.com>`_), I decided to take the following approach:

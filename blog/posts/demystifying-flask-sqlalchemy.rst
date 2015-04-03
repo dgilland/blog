@@ -8,10 +8,6 @@
 .. author: Derrick Gilland
 
 
-Demystifying Flask-SQLAlchemy
-=============================
-
-
 It seems that one of the biggest questions around `Flask-SQLAlchemy <https://pythonhosted.org/Flask-SQLAlchemy/>`_ is how to use `SQLAlchemy <http://www.sqlalchemy.org/>`_ models outside of a `Flask <flask.pocoo.org>`_ application. Several questions have been posted on sites like `Stackoverflow <http://stackoverflow.com/questions/19119725/how-to-use-flask-sqlalchemy-with-existing-sqlalchemy-model>`_ and `Reddit <http://www.reddit.com/r/flask/comments/2qxah2/how_to_access_flasksqlalchemy_models_outside/>`_. There is an open issue `on Github <https://github.com/mitsuhiko/flask-sqlalchemy/issues/98>`_ asking to document how to use your own `declarative base class <http://docs.sqlalchemy.org/en/latest/orm/extensions/declarative/api.html?highlight=declarative#module-sqlalchemy.ext.declarative>`_. As of this writing, there are even `several <https://github.com/mitsuhiko/flask-sqlalchemy/pull/240>`_ `pull <https://github.com/mitsuhiko/flask-sqlalchemy/pull/250>`_ `requests <https://github.com/mitsuhiko/flask-sqlalchemy/pull/255>`_ to make Flask-SQLAlchemy easier to work with in this regard. However, none of the answers or discussions really take the time to parse through what Flask-SQLAlchemy does internally and how you can effectively decouple SQLAlchemy model integration from Flask-SQLAlchemy.
 
 

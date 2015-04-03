@@ -8,9 +8,6 @@
 .. author: Derrick Gilland
 
 
-First Post
-==========
-
 This is my obligatory first post where I describe the foundations of this blog and why I started it.
 
 
