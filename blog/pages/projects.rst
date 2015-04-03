@@ -32,6 +32,26 @@ alchy
 .. include:: snippets/what-is-alchy.rst
 
 
+pushjack
+========
+
+- Source: https://github.com/dgilland/pushjack
+- PyPI: https://pypi.python.org/pypi/pushjack
+- Docs: https://pushjack.readthedocs.org
+
+.. include:: snippets/what-is-pushjack.rst
+
+
+Flask-Pushjack
+==============
+
+- Source: https://github.com/dgilland/flask-pushjack
+- PyPI: https://pypi.python.org/pypi/flask-pushjack
+- Docs: https://flask-pushjack.readthedocs.org
+
+.. include:: snippets/what-is-flask-pushjack.rst
+
+
 logconfig
 =========
 
