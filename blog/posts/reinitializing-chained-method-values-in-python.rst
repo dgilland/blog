@@ -12,7 +12,7 @@
 This is part four in my series on `Generative Classes <link://tag/generative-classes>`_.
 
 
-In part three of this series, `Late Value Passing for Lazy Method Chaining in Python <link://slug/late-value-passing-for-lazy-method-chaining-in-python>`_, I covered a methodology for creating resuable, ad-hoc functions from chained methods by passing the initial chain value late (i.e. after the method chain had been built up). In this post I will outline a way to replace the initial chain value by returning a clone of the method chains reinitialized with the replacement value.
+In part three of this series, `Late Value Passing for Lazy Method Chaining in Python <link://slug/late-value-passing-for-lazy-method-chaining-in-python>`_, I covered a methodology for creating reusable, ad-hoc functions from chained methods by passing the initial chain value late (i.e. after the method chain had been built up). In this post I will outline a way to replace the initial chain value by returning a clone of the method chains reinitialized with the replacement value.
 
 The example code I will use to discuss this type of functionality can be found in `pydash's <http://pydash.readthedocs.org/en/latest/>`_ `chaining submodule <https://github.com/dgilland/pydash/blob/e7890117f3184dbe5bd7deb09a5eaf217180cb0a/pydash/chaining.py>`_:
 
