@@ -1,7 +1,7 @@
 .. title: omdb.py: Release v0.3.1
 .. slug: omdbpy-release-v031
 .. date: 2015-01-27 18:51:43 UTC-05:00
-.. tags:
+.. tags: omdb.py, python, release
 .. category:
 .. link:
 .. description:
@@ -9,7 +9,7 @@
 .. author: Derrick Gilland
 
 
-`Omdb.py v0.3.1 <https://github.com/dgilland/omdb.py/tree/v0.3.0>`_ has been released.
+`Omdb.py v0.3.1 <https://github.com/dgilland/omdb.py/tree/v0.3.1>`_ has been released.
 
 It was something of a brown bag release that added some missing metadata to the main module.
 
