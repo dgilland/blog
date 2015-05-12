@@ -37,7 +37,7 @@ This part of Flask-SQLAlchemy is quite useful when using Flask since it handles 
 Signalling Events
 +++++++++++++++++
 
-This is something I don't find that useful when using Flask-SQLAlchemy. SQLAlchemy already provides a more robust event interface for `core <http://docs.sqlalchemy.org/en/latest/core/event.html>`_ and and `ORM <http://docs.sqlalchemy.org/en/latest/orm/events.html>`_ events that is more robust. Besides, it appears that this feature will be `deprecated <https://github.com/mitsuhiko/flask-sqlalchemy/pull/150#issuecomment-69002922>`_ in a `future version <https://github.com/mitsuhiko/flask-sqlalchemy/pull/256>`_.
+This is something I don't find that useful when using Flask-SQLAlchemy. SQLAlchemy already provides a more robust event interface for `core <http://docs.sqlalchemy.org/en/latest/core/event.html>`_ and and `ORM <http://docs.sqlalchemy.org/en/latest/orm/events.html>`_ events. Besides, it appears that this feature will be `deprecated <https://github.com/mitsuhiko/flask-sqlalchemy/pull/150#issuecomment-69002922>`_ in a `future version <https://github.com/mitsuhiko/flask-sqlalchemy/pull/256>`_.
 
 
 Proxy Access to SQLAlchemy Module
@@ -49,7 +49,7 @@ When an instance of ``flask_sqlalchemy.SQLAlchemy`` is created, the entire SQLAl
 Declarative Base Model
 ++++++++++++++++++++++
 
-This is probably the single biggest part of Flask-SQLAlchemy that gives people troubling when trying to de-couple SQLAlchemy from Flask. Many people start out using Flask-SQLAlchemy's declarative base model because it's quick and convenient:
+This is probably the single biggest part of Flask-SQLAlchemy that gives people trouble when trying to de-couple SQLAlchemy from Flask. Many people start out using Flask-SQLAlchemy's declarative base model because it's quick and convenient:
 
 
 .. code-block:: python
@@ -346,7 +346,7 @@ Now, we can replace the Flask-SQLAlchemy usage example with:
     from .models.base import Model
 
     app = Flask(__name__)
-    db = SQLAlchemy(app, Model=Model) db = SQLAlchemy(app, Model=Model) db = SQLAlchemy(app, Model=Model) db = SQLAlchemy(app, Model=Model) db = SQLAlchemy(app, Model=Model) db = SQLAlchemy(app, Model=Model) db = SQLAlchemy(app, Model=Model) db = SQLAlchemy(app, Model=Model) db = SQLAlchemy(app, Model=Model)
+    db = SQLAlchemy(app, Model=Model)
 
 
 The new usage is almost identical to the original except for the fact that the ``Model`` class is now defined outside of Flask-SQLAlchemy and can easily be used in non-Flask contexts.
