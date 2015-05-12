@@ -71,6 +71,8 @@ Using pushjack is simple:
     # Get expired tokens.
     expired = client.get_expired_tokens()
 
+**UPDATE:** The above example no longer works with `v1.0.1 <https://github.com/dgilland/pushjack/tree/v1.0.1>`_. Please see the `upgrade guide <http://pushjack.readthedocs.org/en/latest/upgrading.html>`_ for details regarding breaking changes.
+
 You can find more details and examples on the `documentation site <http://pushjack.readthedocs.org/>`_.
 
 
