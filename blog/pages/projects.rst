@@ -52,6 +52,16 @@ Flask-Pushjack
 .. include:: snippets/what-is-flask-pushjack.rst
 
 
+verify
+======
+
+- Source: https://github.com/dgilland/verify
+- PyPI: https://pypi.python.org/pypi/verify
+- Docs: http://verify.readthedocs.org
+
+.. include:: snippets/what-is-verify.rst
+
+
 logconfig
 =========
 
