@@ -34,7 +34,7 @@ Features
 - Renamed ``FlaskLogConfig.get_request_msg_data`` to ``FlaskLogConfig.get_request_message_data``. **(possible breaking change)**
 - Renamed ``FlaskLogConfig.make_request_msg`` to ``FlaskLogConfig.make_request_message``. **(possible breaking change)**
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 None

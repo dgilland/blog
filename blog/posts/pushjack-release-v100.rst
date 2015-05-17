@@ -9,7 +9,7 @@
 .. author: Derrick Gilland
 
 
-`Pushjack v1.0.0 <https://github.com/dgilland/pushjack/tree/v1.0.0>`_ has been release.
+`Pushjack v1.0.0 <https://github.com/dgilland/pushjack/tree/v1.0.0>`_ has been released.
 
 It was the first major version release with several breaking changes. Most of the breaking changes were related to cleaning up and removing parts of the API to simplify the overall implementation. There are no longer two ways to send a notification (one using a client class and one using a module function). Instead, client classes are the one way to do that. The configuration object has also been removed and replaced with initialization parameters to the client classes. And finally the APNS send method now returns an object (just like GCM sending does) instead of raising an exception.
 
@@ -52,8 +52,8 @@ Features
 - Remove ``pushjack.config`` module. (**breaking change**)
 - Rename ``GCMResponse.payloads`` to ``GCMResponse.messages``. (**breaking change**)
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 - Fix APNS error checking to properly handle reading when no data returned.
 

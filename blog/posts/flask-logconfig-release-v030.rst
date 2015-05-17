@@ -35,7 +35,7 @@ Features
 - Make ``LogConfig.start_listeners()`` and ``LogConfig.stop_listeners()`` accept optional ``app`` argument to access listeners associated with that app. If no ``app`` passed in, then ``flask.current_app`` will be accessed.
 - Rename supported configuration keys from ``LOGGING`` and ``LOGGING_QUEUE``to ``LOGCONFIG`` and ``LOGCONFIG_QUEUE`` respectively. **(breaking change)**
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 None

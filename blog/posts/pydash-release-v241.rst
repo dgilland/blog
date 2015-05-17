@@ -31,7 +31,7 @@ Features
 None
 
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 - Fixed ``kebab_case`` so that it casts string to lower case.

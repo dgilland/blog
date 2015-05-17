@@ -129,8 +129,8 @@ Features
 - Support iteration over class instance properties for non-list, non-dict, and non-iterable objects.
 
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 - Fix ``deep_has`` to return ``False`` when ``ValueError`` raised during path checking.
 - Fix ``pad`` so that it doesn't over pad beyond provided length.

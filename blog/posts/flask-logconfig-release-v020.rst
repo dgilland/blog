@@ -31,7 +31,7 @@ Features
 
 - Make ``LogConfig`` and ``LogConfig.init_app`` accept custom handler and listener classes via ``handler_class`` and ``listener_class`` arguments.
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 None

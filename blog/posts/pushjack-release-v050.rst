@@ -9,7 +9,7 @@
 .. author: Derrick Gilland
 
 
-`Pushjack v0.5.0 <https://github.com/dgilland/pushjack/tree/v0.5.0>`_ has been release.
+`Pushjack v0.5.0 <https://github.com/dgilland/pushjack/tree/v0.5.0>`_ has been released.
 
 It was a major release that improves the APNS send algorithm. There were also two backwards incompatible changes.
 
@@ -43,7 +43,7 @@ Features
 - Make APNS ``send`` raise an ``APNSSendError`` when one or more error responses received. ``APNSSendError`` contains an aggregation of errors, all tokens attempted, failed tokens, and successful tokens. (**breaking change**)
 - Replace ``priority`` argument to APNS ``send`` with ``low_priority=False``. (**breaking change**)
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 None

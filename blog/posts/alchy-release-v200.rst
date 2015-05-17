@@ -35,8 +35,8 @@ Features
 - Improve logic for setting ``__tablename__`` to work with all table inheritance styles (joined, single, and concrete), to handle ``@declared_attr`` columns, and not to duplicate underscore characters. Thanks sethp_!
 - Modify logic that sets a Model class' ``__table_args__`` and ``__mapper_args__`` (unless overridden in subclass) by merging ``__global_table_args__`` and ``__global_mapper_args__`` from all classes in the class's ``mro()`` with ``__local_table_args__`` and ``__local_mapper_args__`` from the class itself. A ``__{global,local}_{table,mapper}_args__`` may be callable or classmethod, in which case it is evaluated on the class whose ``__{table,mapper}_args__`` is being set. Thanks sethp_! (**breaking change**)
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 None
 

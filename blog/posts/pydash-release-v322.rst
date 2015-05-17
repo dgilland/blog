@@ -31,8 +31,8 @@ Features
 
 None
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 - Catch ``AttributeError`` in ``helpers.get_item`` and return default value if set.
 - Fix bug in ``reduce_right`` where collection was not reversed correctly.

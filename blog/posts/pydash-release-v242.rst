@@ -31,7 +31,7 @@ Features
 None
 
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 - Fixed ``remove`` so that array is modified after callback iteration.

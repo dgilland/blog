@@ -38,7 +38,7 @@ Features
 - Made callbacks support shallow ``property`` style callbacks as ``[key]`` or ``(key,)``.
 
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 None

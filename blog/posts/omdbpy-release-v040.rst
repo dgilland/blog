@@ -31,8 +31,8 @@ Features
 
 - Add ``Season``, ``Episode``, and ``SeriesID`` OMDb API fields as ``season``, ``episode``, and ``series_id`` model fields.
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 None
 

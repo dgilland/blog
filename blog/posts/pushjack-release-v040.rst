@@ -9,7 +9,7 @@
 .. author: Derrick Gilland
 
 
-`Pushjack v0.4.0 <https://github.com/dgilland/pushjack/tree/v0.4.0>`_ has been release.
+`Pushjack v0.4.0 <https://github.com/dgilland/pushjack/tree/v0.4.0>`_ has been released.
 
 It was a major release with several backwards incompatible changes. The biggest breaking change is that the ``send_bulk`` function has been eliminated with its functionality being merged into the ``send`` function (i.e. sending single or multiple push notification is done with the same function). The other big change is that the APNS socket connection handling has been changed to non-blocking and utilizes I/O multiplexing via the `select <https://docs.python.org/library/select.html>`_ module.
 
@@ -43,7 +43,7 @@ Features
 - Return namedtuple class for APNS expired tokens.
 
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 None

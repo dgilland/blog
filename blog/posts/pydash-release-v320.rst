@@ -34,7 +34,7 @@ Features
 - Made ``words`` accept a ``pattern`` argument to override the default regex used for splitting words.
 - Made ``words`` handle single character words better.
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 - Fix ``is_match`` to not compare ``obj`` and ``source`` types using ``type`` and instead use ``isinstance`` comparisons exclusively.

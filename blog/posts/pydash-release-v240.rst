@@ -34,8 +34,8 @@ Features
 - Added ``surround``.
 
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 None
 

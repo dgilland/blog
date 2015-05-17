@@ -9,7 +9,7 @@
 .. author: Derrick Gilland
 
 
-`Flask-Pushjack v1.0.0 <https://github.com/dgilland/flask-pushjack/tree/v1.0.0>`_ has been release.
+`Flask-Pushjack v1.0.0 <https://github.com/dgilland/flask-pushjack/tree/v1.0.0>`_ has been released.
 
 It was the first major version release that brings the API inline with `pushjack v1.0.0 <https://github.com/dgilland/pushjack/tree/v1.0.0>`_. There were a few backwards incompatible changes as well. The biggest breaking change is that ``pushjack 1.0.0`` eliminated the ``send_bulk`` method which is now replaced by the ``send`` method. See the release notes for `v1.0.0 of pushjack <link://slug/pushjack-release-v100>`_ for more details.
 
@@ -36,7 +36,7 @@ Features
 - Remove ``GCM_MAX_RECIPIENTS`` as config option.
 - Rename ``APNS_ERROR_TIMEOUT`` config option to ``APNS_DEFAULT_ERROR_TIMEOUT``. (**breaking change**)
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 None

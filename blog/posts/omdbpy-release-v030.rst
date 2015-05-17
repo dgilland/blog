@@ -34,7 +34,7 @@ Features
 - Added ``search_episode()`` to limit searching to episodes.
 - Added ``search_series()`` to limit searching to series.
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 None

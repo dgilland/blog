@@ -31,8 +31,8 @@ Features
 
 None
 
-Bugfixes
-++++++++
+Bug Fixes
++++++++++
 
 - Add metadata to main module:
 
