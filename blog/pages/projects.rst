@@ -9,97 +9,97 @@
 .. author: Derrick Gilland
 
 
-I maintain several open and closed source projects. All of my open source projects are hosted on Github on my `repositories page <https://github.com/dgilland?tab=repositories>`_. Below are a few highlights:
+I maintain several open and closed source projects. All of my open source projects are hosted on my `Github repositories page <https://github.com/dgilland?tab=repositories>`_. Below are a few highlights:
 
 
 pydash
 ======
 
+.. include:: snippets/what-is-pydash.rst
+
 - Source: https://github.com/dgilland/pydash
 - PyPI: https://pypi.python.org/pypi/pydash
 - Docs: https://pydash.readthedocs.org
-
-.. include:: snippets/what-is-pydash.rst
 
 
 alchy
 =====
 
+.. include:: snippets/what-is-alchy.rst
+
 - Source: https://github.com/dgilland/alchy
 - PyPI: https://pypi.python.org/pypi/alchy
 - Docs: https://alchy.readthedocs.org
-
-.. include:: snippets/what-is-alchy.rst
 
 
 pushjack
 ========
 
+.. include:: snippets/what-is-pushjack.rst
+
 - Source: https://github.com/dgilland/pushjack
 - PyPI: https://pypi.python.org/pypi/pushjack
 - Docs: https://pushjack.readthedocs.org
-
-.. include:: snippets/what-is-pushjack.rst
 
 
 Flask-Pushjack
 ==============
 
+.. include:: snippets/what-is-flask-pushjack.rst
+
 - Source: https://github.com/dgilland/flask-pushjack
 - PyPI: https://pypi.python.org/pypi/flask-pushjack
 - Docs: https://flask-pushjack.readthedocs.org
-
-.. include:: snippets/what-is-flask-pushjack.rst
 
 
 verify
 ======
 
+.. include:: snippets/what-is-verify.rst
+
 - Source: https://github.com/dgilland/verify
 - PyPI: https://pypi.python.org/pypi/verify
 - Docs: http://verify.readthedocs.org
-
-.. include:: snippets/what-is-verify.rst
 
 
 logconfig
 =========
 
+.. include:: snippets/what-is-logconfig.rst
+
 - Source: https://github.com/dgilland/logconfig
 - PyPI: https://pypi.python.org/pypi/logconfig
 - Docs: http://logconfig.readthedocs.org
-
-.. include:: snippets/what-is-logconfig.rst
 
 
 Flask-LogConfig
 ===============
 
+.. include:: snippets/what-is-flask-logconfig.rst
+
 - Source: https://github.com/dgilland/flask-logconfig
 - PyPI: https://pypi.python.org/pypi/flask-logconfig
 - Docs: http://flask-logconfig.readthedocs.org
-
-.. include:: snippets/what-is-flask-logconfig.rst
 
 
 omdb.py
 =======
 
+.. include:: snippets/what-is-omdbpy.rst
+
 - Source: https://github.com/dgilland/omdb.py
 - PyPI: https://pypi.python.org/pypi/omdb
 - Docs: http://omdbpy.readthedocs.org/en/latest/
-
-.. include:: snippets/what-is-omdbpy.rst
 
 
 yummly.py
 =========
 
+.. include:: snippets/what-is-yummlypy.rst
+
 - Source: https://github.com/dgilland/yummly.py
 - PyPI: https://pypi.python.org/pypi/yummly
 - Docs: https://github.com/dgilland/yummly.py
-
-.. include:: snippets/what-is-yummlypy.rst
 
 
 Other Projects
