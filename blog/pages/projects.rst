@@ -42,16 +42,6 @@ pushjack
 - Docs: https://pushjack.readthedocs.org
 
 
-Flask-Pushjack
-==============
-
-.. include:: snippets/what-is-flask-pushjack.rst
-
-- Source: https://github.com/dgilland/flask-pushjack
-- PyPI: https://pypi.python.org/pypi/flask-pushjack
-- Docs: https://flask-pushjack.readthedocs.org
-
-
 verify
 ======
 
@@ -60,6 +50,16 @@ verify
 - Source: https://github.com/dgilland/verify
 - PyPI: https://pypi.python.org/pypi/verify
 - Docs: http://verify.readthedocs.org
+
+
+hashfs
+======
+
+.. include:: snippets/what-is-hashfs.rst
+
+- Source: https://github.com/dgilland/hashfs
+- PyPI: https://pypi.python.org/pypi/hashfs
+- Docs: http://hashfs.readthedocs.org
 
 
 logconfig
@@ -105,6 +105,8 @@ yummly.py
 Other Projects
 ==============
 
-- `carafe <https://github.com/dgilland/carafe>`_
+- `Flask-HashFS <https://github.com/dgilland/flask-hashfs>`_
+- `Flask-Pushjack <https://github.com/dgilland/flask-pushjack>`_
 - `Flask-Alchy <https://github.com/dgilland/flask-alchy>`_
+- `carafe <https://github.com/dgilland/carafe>`_
 - `ladder <https://github.com/dgilland/ladder>`_
