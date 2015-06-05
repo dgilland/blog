@@ -26,7 +26,7 @@ SITE_URL = "http://derrickgilland.com/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://derrickgilland.com"
 BLOG_EMAIL = "dgilland@gmail.com"
-BLOG_DESCRIPTION = "Musings of a software engineer."  # (translatable)
+BLOG_DESCRIPTION = "The personal tech blog of software engineer Derrick Gilland"  # (translatable)
 
 # Nikola is multilingual!
 #
