@@ -1,7 +1,7 @@
 .. title: Reinitializing Chained Method Values in Python
 .. slug: reinitializing-chained-method-values-in-python
 .. date: 2015-04-30 19:15:23 UTC-04:00
-.. tags:
+.. tags: python, generative-classes
 .. category:
 .. link:
 .. description:
