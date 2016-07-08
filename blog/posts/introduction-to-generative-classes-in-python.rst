@@ -41,7 +41,7 @@ An example of a generative class would be one that supports method chaining:
 
     operator = Operation()
     operator.add(3).add(4).subtract(5)
-    assert operator == 2
+    assert operator.result == 2
 
 
 One potential issue with this approach (returning ``self`` after each method call) is that the original ``Operation`` instance is modified each time the generative methods are called. Sometimes it's more desirable to prevent the original object from being modified so that it can be reused in its original state and to prevent unintended side effects.
